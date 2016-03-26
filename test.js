@@ -2,6 +2,7 @@ import test from "ava"
 import mockFs from "mock-fs"
 import mountfs from "mountfs"
 import fs from "fs"
+
 mountfs.patchInPlace()
 
 test("compile template with lodash.template", async (t) => {

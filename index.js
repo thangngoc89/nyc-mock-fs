@@ -6,6 +6,6 @@ var readFile = require("fs-promise").readFile
 module.exports = function(filePath, templateVars) {
   return readFile(filePath, { encode: "utf-8" })
     .then(function(content) {
-      template(content)(templateVars)
+      return template(content)(templateVars)
     })
 }
