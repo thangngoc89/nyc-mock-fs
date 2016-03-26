@@ -11,11 +11,11 @@
   "license": "ISC",
   "devDependencies": {
     "ava": "^0.13.0",
-    "fs-promise": "^0.5.0",
     "lodash.template": "^4.2.2",
     "mock-fs": "^3.8.0",
     "mountfs": "^0.2.1",
-    "nyc": "^6.1.1"
+    "nyc": "^6.1.1",
+    "pify": "^2.3.0"
   },
   "ava": {
     "files": [
